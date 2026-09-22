@@ -499,7 +499,7 @@
         descripcionLarga: "Ubicado en el epicentro cívico y comercial de Río Cuarto. Cuenta con campanas de alta capacidad con bocas calibradas para recepción de botellas de vidrio (verdes, transparentes y marrones), cartón seco y botellas plásticas PET.",
         materiales: ["Botellas y frascos de vidrio", "Papel blanco y de diario", "Cajas de cartón desarmadas", "Botellas plásticas de bebidas"],
         consejo: "Enjuagar los frascos de vidrio y retirar tapas metálicas antes de arrojarlos.",
-        imagen: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80",
+        imagen: "assets/images/plaza-roca.jpg",
         googleMapsQuery: "Plaza+Roca+Rio+Cuarto+Cordoba"
       },
       {
@@ -514,7 +514,7 @@
         descripcionLarga: "Situado junto al polideportivo y parque recreativo de Banda Norte. Es uno de los puntos con mayor afluencia de jóvenes y deportistas, enfocado en envases plásticos de bebidas, botellas de amor y latas de aluminio prensadas.",
         materiales: ["Botellas plásticas PET", "Tapitas de plástico", "Latas de aluminio (gaseosas/cerveza)", "Envases de champú y lavandina (PEAD)"],
         consejo: "Aplasta las botellas con el pie antes de tirarlas para que ocupen un 70% menos de espacio.",
-        imagen: "https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?auto=format&fit=crop&w=800&q=80",
+        imagen: "assets/images/parque-sarmiento.jpg",
         googleMapsQuery: "Parque+Sarmiento+Rio+Cuarto+Cordoba"
       },
       {
@@ -529,7 +529,7 @@
         descripcionLarga: "Instalado en el predio del Centro Cultural del Andino. Articula directamente con cooperativas de recuperadores urbanos que clasifican fardos de cartón y papeles para venta a empresas papeleras de la provincia de Córdoba.",
         materiales: ["Cartón corrugado", "Cajas de embalaje", "Envases Tetra Brik", "Revistas, folletos y cuadernos sin espiral"],
         consejo: "Desarmar las cajas para que queden totalmente planas y atarlas si es posible.",
-        imagen: "https://images.unsplash.com/photo-1605600659908-0ef719419d41?auto=format&fit=crop&w=800&q=80",
+        imagen: "assets/images/paseo-andino.jpg",
         googleMapsQuery: "Paseo+Cultural+El+Andino+Rio+Cuarto"
       },
       {
@@ -544,7 +544,7 @@
         descripcionLarga: "Coordinado junto a los laboratorios de ingeniería y sustentabilidad de la Universidad Nacional de Río Cuarto. Permite la disposición segura de artefactos electrónicos fuera de uso, evitando la contaminación por metales pesados en napas subterráneas.",
         materiales: ["CPUs, placas y fuentes de PC", "Monitores y televisores en desuso", "Pequeños electrodomésticos", "Cables, fuentes y cargadores", "Pilas alcalinas y baterías"],
         consejo: "No desarmar componentes que contengan pantallas de tubo ni manipular baterías hinchadas.",
-        imagen: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=800&q=80",
+        imagen: "assets/images/unrc-campus.jpg",
         googleMapsQuery: "Universidad+Nacional+de+Rio+Cuarto"
       },
       {
@@ -559,7 +559,7 @@
         descripcionLarga: "Punto neurálgico para los vecinos del barrio Alberdi. Diseñado con señalética visual simple para que familias y comerciantes del sector puedan acercar sus materiales reciclables clasificados a cualquier hora del día.",
         materiales: ["Bidones de agua y productos de limpieza", "Frascos de conservas", "Botellas de vidrio no retornables", "Plásticos duros de bazar"],
         consejo: "Las bolsas plásticas también son reciclables si están limpias y secas.",
-        imagen: "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&w=800&q=80",
+        imagen: "assets/images/barrio-alberdi.jpg",
         googleMapsQuery: "Plaza+Otegui+Alberdi+Rio+Cuarto"
       },
       {
@@ -574,7 +574,7 @@
         descripcionLarga: "Ubicado junto al paseo costero y zona de balneario. Su propósito primordial es evitar que los residuos de picnics y recreación terminen en el cauce del río Cuarto, recuperando aluminio, hojalata y botellas descartables.",
         materiales: ["Latas de conserva y desodorantes", "Latas de gaseosa y cerveza", "Botellas plásticas y vajilla descartable", "Frascos de vidrio"],
         consejo: "Asegúrate de enjuagar los restos de alimentos grasosos de las latas de atún o conservas.",
-        imagen: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80",
+        imagen: "assets/images/costanera-rio.jpg",
         googleMapsQuery: "Puente+Carretero+Rio+Cuarto+Cordoba"
       }
     ];
@@ -680,7 +680,7 @@
           <div>
             <!-- Contenedor Foto con Zoom en Hover -->
             <div class="relative h-48 w-full overflow-hidden bg-slate-800">
-              <img src="${punto.imagen}" alt="Punto Verde ${punto.titulo} en Río Cuarto" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=800'">
+              <img src="${punto.imagen}" alt="Punto Verde ${punto.titulo} en Río Cuarto" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" onerror="this.src='assets/images/plaza-roca.jpg'">
               <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
               
               <!-- Badge Sector -->
