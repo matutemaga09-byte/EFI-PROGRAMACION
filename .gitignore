@@ -10,3 +10,6 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+
+# Skills repository (external submodule/bundle)
+.agents/skills/agentic-awesome-skills/
