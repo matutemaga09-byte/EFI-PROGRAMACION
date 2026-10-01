@@ -2,7 +2,7 @@
 
 ## 1. Visión del Producto
 **EcoRio** es una plataforma web orientada a la sustentabilidad y economía circular para la ciudad de **Río Cuarto, Córdoba**. Su objetivo es doble:
-1. **Para los ciudadanos:** Facilitar la localización de Puntos Verdes y estaciones de reciclaje, informando qué materiales se reciben, horarios y consejos de separación.
+1. **Para los ciudadanos:** Facilitar la localización de Puntos Verdes y estaciones de reciclaje, informando qué materiales se reciben, horarios y consejos de separación. Cuenta con una función de retroalimentación, tanto para errores como para nuevas ideas o puntos de reciclaje.
 2. **Para las EcoEmpresas:** Ofrecer un canal de contacto directo para articular la compra, retiro y valorización de materiales reciclables acopiados por volumen.
 
 ---

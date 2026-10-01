@@ -6,13 +6,13 @@ Este documento rige la metodología de desarrollo, el orden de construcción de 
 
 ## 1. Fases del Flujo de Maquetado Incremental
 
-El desarrollo de la aplicación se ejecuta en 3 fases secuenciales y no destructivas:
+El desarrollo de la aplicación se ejecuta en 4 fases secuenciales y no destructivas:
 
-```mermaid
-graph LR
-    Fase1[Fase 1: Estructura HTML5 Semántica] --> Fase2[Fase 2: Maquetado con TailwindCSS]
-    Fase2 --> Fase3[Fase 3: Interactividad JS & Dinámicas]
-    Fase3 --> DoD[Validación Definition of Done]
+```
+    Fase1 --> Estructura HTML5 Semántica
+    Fase2 --> Maquetado con TailwindCSS e Interactividad JS & Dinámicas
+    Fase3 --> Interactividad JS & Dinámicas
+    Fase4 --> DoD[Validación Definition of Done]
 ```
 
 ### ➔ Paso 1: Esqueleto Semántico HTML5
