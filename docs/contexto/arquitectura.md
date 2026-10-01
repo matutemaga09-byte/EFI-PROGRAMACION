@@ -14,7 +14,7 @@ El proyecto adopta un enfoque **JAMstack / Vanilla Web Moderno**, priorizando la
 | Capa | Tecnología | Justificación Técnica |
 | :--- | :--- | :--- |
 | **Estructura** | **HTML5 Semántico** | Mejora la accesibilidad (a11y), el posicionamiento (SEO) y establece una jerarquía de información clara sin divitis. |
-| **Estilado & Diseño** | **TailwindCSS v3 (CDN)** | Provee diseño responsivo mediante clases de utilidad atómicas, soporte nativo de Dark Mode (`class="dark"`) y consistencia estética sin hojas CSS extensas. |
+| **Estilado & Diseño** | **TailwindCSS v3 (CDN)** | Provee diseño responsive mediante clases de utilidad atómicas, soporte nativo de Dark Mode (`class="dark"`) y consistencia estética sin hojas CSS extensas. |
 | **Lógica e Interacción** | **JavaScript ES6+ (Nativo)** | Manipulación directa del DOM, gestión de eventos desacoplada, almacenamiento local (`localStorage`) y renderizado dinámico sin la sobrecarga de frameworks. |
 | **Tipografía & Assets** | **Google Fonts (Poppins / Inter)** | Tipografías modernas con alto grado de legibilidad en pantallas retina y móviles. |
 

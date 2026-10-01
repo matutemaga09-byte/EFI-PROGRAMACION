@@ -35,17 +35,20 @@ El diseño responde a una estética ecológica contemporánea, priorizando contr
 * **Badges y Etiquetas:** `bg-emerald-950/60 text-emerald-300 border border-emerald-800`
 
 ### Modo Claro (Alternancia reactiva):
-* **Fondo Principal:** `bg-slate-50` (`#f8fafc`)
-* **Contenedores y Tarjetas:** `bg-white` con borde `border-slate-200 shadow-sm`
-* **Texto Primario:** `text-slate-900`
-* **Texto Secundario:** `text-slate-600`
+* **Fondo Principal:** `bg-emerald-50` (`#ecfdf5`)
+* **Secciones Alternas:** `bg-emerald-100/60` (`#d1fae5` al 60%)
+* **Contenedores y Tarjetas:** `bg-white` con borde `border-emerald-200` y `shadow-sm shadow-emerald-900/5`
+* **Texto Primario:** `text-emerald-950` (`#022c22`)
+* **Texto Secundario:** `text-emerald-900/70` (alternativa: `text-slate-600`)
+* **Acento / Links:** `text-emerald-700` (`#047857`)
+* **Botón Principal:** `bg-emerald-700 hover:bg-emerald-800` con `text-white`
 * **Badges y Etiquetas:** `bg-emerald-100 text-emerald-800 border border-emerald-200`
 
 ---
 
 ## 3. Tipografía y Jerarquía Visual
 
-* **Familia Tipográfica:** Google Fonts **Poppins** (títulos, botones e impacto) y **Inter** (cuerpo de texto, datos y modal), con fallback `sans-serif`.
+* **Familia Tipográfica:** Google Fonts **Poppins** (títulos, botones e impacto) e **Inter** (cuerpo de texto, datos y modal), con fallback `sans-serif`.
 * **Jerarquía de Encabezados:**
   * `h1`: `text-4xl md:text-6xl font-extrabold tracking-tight` (Hero)
   * `h2`: `text-3xl md:text-4xl font-bold tracking-tight` (Títulos de sección)
@@ -54,7 +57,7 @@ El diseño responde a una estética ecológica contemporánea, priorizando contr
 
 ---
 
-## 4. Diseño Responsivo y Breakpoints
+## 4. Diseño Responsive y Breakpoints
 
 El diseño es **Mobile-First** con adaptación fluida en los puntos de quiebre estándar de TailwindCSS:
 
