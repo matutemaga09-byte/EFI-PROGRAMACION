@@ -1,3 +1,3 @@
-# EFI-PROGRAMACION
+# EcoRio
 
-EcoRio
+Proyecto 2do año Desarrollo de Software
